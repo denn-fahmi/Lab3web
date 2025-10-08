@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulir Pilihan Akademik</title>
+    <style>
+        form p > label {
+            display: inline-block;
+            width: 150px; 
+        }
+        form input[type="text"], form textarea, form select {
+            border: 1px solid #197a43;
+        }
+        form input[type="submit"] {
+            border: 1px solid #197a43;
+            background-color: #197a43;
+            color: #ffffff;
+            font-weight: bold;
+            padding: 5px 15px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Formulir Pilihan Akademik</h1>
+    </header>
+
+    <form action="proses.php" method="post">
+        <fieldset>
+            <legend>Pilihan Akademik</legend>
+
+            <p>
+                <label for="fakultas">Pilih Fakultas (Dropdown):</label>
+                <select id="fakultas" name="fakultas">
+                    <option value="">-- Pilih Fakultas --</option>
+                    <option value="Teknik">Teknik</option>
+                    <option value="Ekonomi dan Bisnis">Fakultas Ekonomi dan Bisnis</option>
+                </select>
+            </p>
+
+            <p>
+                <label for="program_studi">Pilih Program Studi (Listbox):</label>
+                <select id="program_studi" name="program_studi[]" size="8" multiple>
+                    <optgroup label="Fakultas Teknik">
+                        <option value="Teknik Informatika">Teknik Informatika</option>
+                        <option value="Teknik Industri">Teknik Industri</option>
+                        <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+                        <option value="Pemrograman Web">Pemrograman Web</option>
+                        <option value="Sistem Informasi">Sistem Informasi</option>
+                        <option value="Basis Data 2">Basis Data 2</option>
+                    </optgroup>
+                    <optgroup label="Fakultas Ekonomi dan Bisnis">
+                        <option value="Akuntansi">Akuntansi</option>
+                        <option value="Manajemen">Manajemen</option>
+                        <option value="Bisnis Digital">Bisnis Digital</option>
+                    </optgroup>
+                    <option value="Jaringan Komputer">Jaringan Komputer</option>
+                    <option value="Struktur Data">Struktur Data</option>
+                    <option value="Algoritma & Pemrograman">Algoritma &amp; Pemrograman</option>
+                </select>
+            </p>
+
+            <p><input type="submit" value="Kirim Pilihan"></p>
+
+        </fieldset>
+    </form>
+</body>
+</html>
