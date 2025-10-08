@@ -19,4 +19,16 @@ Persiapan pertama yaitu membuat dokumen HTML dengan nama file lab3_list.html sep
 </body>
 </html>
 ```
-Kemudian tambahkan kode untuk membuat Ordered List seperti berikut.
+Kemudian saya tambahkan kode untuk membuat Ordered List seperti berikut.
+```
+<section id="order-list">
+<h2>Ordered List</h2>
+<ol>
+<li>Pemrograman Web</li>
+<li>Sistem Informasi</li>
+<li>Basis Data 2</li>
+</ol>
+</section>
+```
+dan seperti inilah hasilnya <p>
+![gambar1](kj1.1.PNG) <p>
