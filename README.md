@@ -186,5 +186,25 @@ for="jk_p">Perempuan</label>
 </fieldset>
 </form>
 ```
-lalu hasinya seperti ini
+lalu hasilnya akan jadi seperti ini <p>
 ![gambar1](kj7.PNG) <p>
+kemudian saya tambahkan style css seperti berikut <p>
+```
+<style>
+form p > label {
+display: inline-block;
+width: 100px;
+}
+form input[type="text"], form textarea {
+border: 1px solid #197a43;
+}
+form input[type="submit"] {
+border: 1px solid #197a43;
+background-color: #197a43;
+color: #ffffff;
+font-weight: bold;
+padding: 5px 15px;
+}
+</style>
+```
+![gambar1](kj8.PNG) <p>
