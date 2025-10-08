@@ -32,3 +32,17 @@ Kemudian saya tambahkan kode untuk membuat Ordered List seperti berikut.
 ```
 dan seperti inilah hasilnya <p>
 ![gambar1](kj1.1.PNG) <p>
+Kemudian saya tambakan kode untuk membuat Unordered List, setelah deklarasi ordered list pada
+section unordered-list, seperti berikut.
+```
+<section id="unorder-list">
+<h2>Unordered List</h2>
+<ul type="square">
+<li>Jaringan Komputer</li>
+<li>Struktur Data</li>
+<li>Algoritma &amp; Pemrograman</li>
+</ul>
+</section>
+```
+dan inilah hasilnya
+![gambar1](kj2.PNG) <p>
