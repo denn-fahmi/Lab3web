@@ -107,3 +107,37 @@ lalu saya Buat file baru dengan nama lab3_tabel.html seperti berikut.
 </tbody>
 </table>
 ```
+Untuk mengatur margin dan padding pada cel data, tambahkan atribut cellpadding dan
+cellspacing pada tag table.
+```
+<table border="1" cellpadding="4" cellspacing="0">
+```
+kemudian saya menggabungkan sel data, menggunakan atribut rowspan dan colspan.
+```
+<table border="1" cellpadding="6" cellspacing="0">
+<thead>
+<tr>
+<th>No.</th>
+<th>Fakultas</th>
+<th>Program Studi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1.</td>
+<td rowspan="3">Teknik</td>
+<td>Teknik Informatika</td>
+</tr>
+<tr>
+<td>2.</td>
+<td>Teknik Industri</td>
+</tr>
+<tr>
+<td>3.</td>
+<td>Teknik Lingkungan</td>
+</tr>
+</tbody>
+</table>
+```
+seperti inilah hasilnya <p>
+![gambar1](kj5.PNG) <p>
