@@ -46,3 +46,21 @@ section unordered-list, seperti berikut.
 ```
 dan inilah hasilnya
 ![gambar1](kj2.PNG) <p>
+Kemudian saya tambahkan kode untuk membuat description list setelah deklarasi unorderd-list.
+```
+<section id="unorder-list">
+<h2>Description List</h2>
+<dl>
+<dt>Fakultas Teknik</dt>
+<dd>Teknik Industri</dd>
+<dd>Teknik Informatika</dd>
+<dd>Teknik Lingkungan</dd>
+<dt>Fakultas Ekonomi dan Bisnis</dt>
+<dd>Akuntansi</dd>
+<dd>Manajemen</dd>
+<dd>Bisnis Digital</dd>
+</dl>
+</section>
+```
+seperti ini hasilnya
+![gambar1](kj3.PNG) <p>
