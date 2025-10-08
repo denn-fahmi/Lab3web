@@ -208,3 +208,4 @@ padding: 5px 15px;
 </style>
 ```
 ![gambar1](kj8.PNG) <p>
+untuk menampilkan dropdown menu dan listbox dengan multiple selection saya membuat file baru dengan nama Lab3seleksi.html
